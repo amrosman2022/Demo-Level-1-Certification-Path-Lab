@@ -5,7 +5,7 @@ const uuid = require('uuid/v4')
 const LaunchDarkly = require('launchdarkly-node-server-sdk')
 const port = 8080
 
-const ldClient = LaunchDarkly.init("sdk-4de14f35-6483-4580-961d-96dca749ce0e")
+const ldClient = LaunchDarkly.init("SDK-KEY")
 
 const user = {
     "firstName":"Super",
