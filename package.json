@@ -1,0 +1,23 @@
+{
+  "name": "workramp-featureflag-example",
+  "version": "1.0.0",
+  "description": "feature flag example using launchdarkly node server side SDK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "workramp-featureflag-example.git"
+  },
+  "author": "Rocky McGredy",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "export": "^0.1.337",
+    "express": "^4.17.1",
+    "launchdarkly-node-server-sdk": "^5.13.4",
+    "uuidv4": "^6.2.5"
+  }
+}
